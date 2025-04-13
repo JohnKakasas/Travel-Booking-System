@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Travel_Reservation_System.jnlp">
+  <information>
+    <title>Travel_Reservation_System</title>
+    <vendor>Johny</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Travel_Reservation_System.jar" size="2130416" download="eager" />
+    <jar href="lib\jackson-annotations-2.17.3.jar" size="78492" download="eager" />
+    <jar href="lib\jackson-core-2.17.3.jar" size="582923" download="eager" />
+    <jar href="lib\jackson-databind-2.17.3.jar" size="1649481" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Travel_Reservation_System" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="TravelBookingSystem"  name="Travel_Reservation_System" />
+  <update check="always"/>
+</jnlp>

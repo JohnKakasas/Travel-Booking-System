@@ -1,0 +1,82 @@
+/* Στυλ για το VBox για να μετακινηθούν όλα πιο δεξιά */
+.root {
+    -fx-padding: 20px 20px 20px 20px;
+}
+
+/* Γενικό στυλ για κουμπιά προσθήκης */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-min-width: 150px; /* Ελάχιστο πλάτος για να μην κόβονται λέξεις */
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Στυλ για τα delete buttons */
+.delete-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-min-width: 150px; /* Ελάχιστο πλάτος για να μην κόβονται λέξεις */
+}
+
+.delete-button:hover {
+    -fx-background-color: #da190b;
+}
+
+/* Στυλ για πίνακες */
+.table-view {
+    -fx-background-color: #f2f2f2;
+    -fx-pref-width: 900px; /* Πιο φαρδύς πίνακας για να χωράει περιεχόμενο */
+}
+
+/* Στυλ για γενικά labels */
+.label {
+    
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-background-color: #e0f7fa;
+    -fx-padding: 5px 10px;
+    -fx-border-color: #0288d1;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-wrap-text: true; /* Αναδίπλωση κειμένου αν χρειάζεται */
+}
+
+/* Στυλ για τίτλους (Πελάτες, Δρομολόγια, Κρατήσεις) */
+#title-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 5px 10px;
+    -fx-background-color: #e8f5e9;
+    -fx-border-color: #4caf50;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-wrap-text: true; /* Αναδίπλωση κειμένου */
+}
+
+/* Στυλ για το mainLabel (Καλώς ήρθατε) */
+#main-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #0288d1;
+    -fx-padding: 10px;
+    -fx-border-color: #01579b;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 2);
+    -fx-wrap-text: true; /* Αναδίπλωση κειμένου */
+}
+
